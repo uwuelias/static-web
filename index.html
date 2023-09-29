@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="spots.html">Spots To Visit</a></li>
+        </ul>
+    </nav>
+
+    <div class="title">
+        <h1>Elias Static Webpages</h1>
+    </div>
+    <!--Group the rest of the contents together so i can set their margin-->
+    <div class="container">
+    <div class="about-me">
+        <h2>About Me:</h2>
+        <p>Hello! My name is Elias. I am a senior in the software engineering major. I can speak three languages: English, Mandarin, and Cantonese. Cats are my favorite animals.</p>
+    </div>
+
+    <div class="language">
+        <h2>Coding Languages I know:</h2>
+        <ul>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python (a bit)</li>
+        </ul>
+    </div>
+    <div class="contact-container">
+        <form>
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="video">
+        <h3>My favorite video:</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IqJ-0xtpIDE" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="audio">
+        <h3>My favorite song:</h3>
+        <audio controls>
+            <source src="audios/warr.mp3">
+        </audio>
+    </div>
+
+    <div class="socials">
+        <h3>Socials:</h3>
+        <a href="https://github.com/uwuelias"><img src="images/github.png"></a>
+        <a href="https://www.linkedin.com/in/elias-wu-feng-743148285/"><img src="images/linkedin.png"></a>
+    </div>
+</div>
+
+    <footer>&#169; 2023 Elias | All Rights Reserved</footer>  
+
+</body>
+</html>
