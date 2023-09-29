@@ -90,5 +90,40 @@ footer {
     padding: 10px 0
 }
 
+.places table{
+    width: 100%;
+    border-collapse: collapse;
+}
 
+.places th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
+.video {
+    width: 50%;
+}
+
+.cats {
+    width: 40%;
+}
+
+.cats img{
+    width: 30%;
+    margin-right: 30px;
+}
+
+.fpic {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.spic {
+    width: 300px;
+}
+
+.pics {
+    width: 400px;
+    margin-right: 30px;
+}
